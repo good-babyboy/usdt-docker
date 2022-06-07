@@ -23,7 +23,7 @@ services:
     image: node
     container_name: toy-server
     restart: always
-    command:
+    entrypoint: sh /app/startup.sh
     volumes:
       - ./services/toy-server/dist:/app
     ports:

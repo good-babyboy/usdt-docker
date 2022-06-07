@@ -25,7 +25,8 @@ services:
     restart: always
     entrypoint: sh /app/startup.sh
     volumes:
-      - ./services/toy-server/dist:/app
+      - ./services/toy-server/dist:/app/dist
+      - ./services/toy-server/startup.sh:/app/startup.sh
     ports:
       - '3000:3000'
 

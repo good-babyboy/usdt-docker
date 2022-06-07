@@ -1,5 +1,5 @@
 #!/bin/bash
-server_name="ruoyi-admin"
+server_name="tom"
 
 PID=$(ps -aux | grep $server_name | awk '{print $2}')
 

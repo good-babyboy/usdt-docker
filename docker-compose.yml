@@ -5,7 +5,7 @@ services:
     container_name: ruoyi-admin
     restart: always
     volumes:
-      - ./services/ruoyi-admin/tom.jar:/home/ruoyi/jar/ruoyi-admin.jar
+      - ./services/ruoyi-admin/tom.jar:/home/ruoyi/jar/tom.jar
       - ./services/ruoyi-admin/startup.sh:/home/ruoyi/startup.sh
       - ./services/ruoyi-admin/logs:/home/ruoyi/logs
       - ./services/ruoyi-admin/upload:/home/ruoyi/uploadPath
